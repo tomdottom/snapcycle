@@ -1,0 +1,9 @@
+<!doctype html>
+<head>
+    <title>Hello from Flask</title>
+</head>
+<body>
+    {% for item in data._items %}
+    <div><a href="/{{ item._links.self.href }}">{{item.title}}</a></div>
+    {% endfor %}
+</body>

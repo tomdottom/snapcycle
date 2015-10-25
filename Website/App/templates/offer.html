@@ -1,0 +1,9 @@
+<!doctype html>
+<head>
+    <title>Hello from Flask</title>
+</head>
+<body>
+    <div><a href="/{{ data._links.collection.href }}">{{ data._links.collection.title }}</a></div>
+    <div>{{ data.title }}</div>
+    <div>{{ data.description   }}</div>
+</body>
