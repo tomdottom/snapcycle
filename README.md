@@ -41,7 +41,7 @@ First copy `db-setup.js`
 
 Then run it against mongo:
 
-    docker exec snapcycle_mongo_1 mongo /tmp/db-setup.js
+    docker exec snapcycle_mongo_1 mongo data-api /tmp/db-setup.js
 
 Then create some data with:
 
